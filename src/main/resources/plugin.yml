@@ -5,6 +5,7 @@ api-version: '1.21'
 depend:
   - LuckPerms
   - PlaceholderAPI
+  - Vault
 commands:
   azienda:
     usage: /azienda [crea|elimina|give]
