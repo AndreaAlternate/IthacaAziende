@@ -1,0 +1,21 @@
+name: IthacaAziende
+version: '1.0-SNAPSHOT'
+main: org.ithaca.ithacaAziende.IthacaAziende
+api-version: '1.21'
+depend:
+  - LuckPerms
+  - PlaceholderAPI
+commands:
+  azienda:
+    usage: /azienda [crea|elimina|give]
+    description: Gestisce le aziende
+permissions:
+  ithacaaziende.crea:
+    description: Permesso per creare aziende
+    default: true
+  ithacaaziende.elimina:
+    description: Permesso per eliminare aziende
+    default: op
+  ithacaaziende.give:
+    description: Permesso per dare PC aziendali
+    default: op
